@@ -473,8 +473,16 @@ overflow: hidden;
     margin-bottom: 10px;
 }
 
+.footer_img:hover{
+    transform: scale(1.2);
+}
+
 .footer_img{
     width: 30px;
+    border-radius: 50%;
+    background: #314652;
+    box-shadow: 2px 2px 5px #000;
+    transition: all .4s ease-in-out;
 }
 
 /* media queries */
